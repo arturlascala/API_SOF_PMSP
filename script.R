@@ -2,7 +2,7 @@
 
 # Script em R para extrair dados do SOF. Este script extrai múltiplas páginas de uma vez. 
 
-# Preâmbulo 
+# Preâmbulo - ALTERAR ANTES DE USAR
 "INSIRA SEU TOKEN AQUI" <- senha
 INSIRA O NÚMERO DE PÁGINAS AQUI <- paginas
 
