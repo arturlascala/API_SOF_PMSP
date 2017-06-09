@@ -24,7 +24,7 @@ for(i in 1:paginas){
 }
 
 # seleciona o data.frame da lista
-z <- vector("list", NÚMERO DE PÁGINAS)
+z <- vector("list", paginas)
 for (i in 1:paginas) {
         z[[i]] <- y[[i]]$lstEmpenhos
 }
