@@ -3,6 +3,8 @@
 # Script em R para extrair dados do SOF. Este script extrai múltiplas páginas de uma vez. 
 
 # Preâmbulo - ALTERAR ANTES DE USAR
+library(httr)
+library(jsonlite)
 senha <- "INSIRA SEU TOKEN AQUI (COM ASPAS)" 
 paginas <- "INSIRA O NÚMERO DE PÁGINAS AQUI (SEM ASPAS)"
 
