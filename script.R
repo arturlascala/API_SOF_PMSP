@@ -3,8 +3,8 @@
 # Script em R para extrair dados do SOF. Este script extrai múltiplas páginas de uma vez. 
 
 # Preâmbulo - ALTERAR ANTES DE USAR
-"INSIRA SEU TOKEN AQUI" <- senha
-INSIRA O NÚMERO DE PÁGINAS AQUI <- paginas
+senha <- "INSIRA SEU TOKEN AQUI" 
+paginas <- INSIRA O NÚMERO DE PÁGINAS AQUI
 
 # extrai dados da API do SOF
 x <- vector("list", paginas)
