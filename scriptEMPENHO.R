@@ -1,6 +1,6 @@
 ############ API_SOF ###########
 
-# Script em R para extrair dados do SOF. Este script extrai múltiplas páginas de uma vez. 
+# Script em R para extrair dados de empenho do SOF. Este script extrai múltiplas páginas de uma vez. 
 
 # Preâmbulo - ALTERAR ANTES DE USAR
 library(httr)
