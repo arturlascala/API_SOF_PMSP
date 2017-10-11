@@ -1,3 +1,14 @@
+### API SOF ###
+
+# Este script em R contém uma função para a leitura da API de Empenhos do Sistema 
+# Orçamentário Financeiro da Prefeitura de São Paulo
+
+# Carregue a função no R e preencha os argumentos conforme desejado
+
+# A SENHA é fornecida por meio de cadastro no site https://api.prodam.sp.gov.br/store/
+
+
+
 APISOF <- function(SENHA, anoEmpenho, mesEmpenho, codEmpenho = NULL, numCpfCnpj = NULL, txtRazaoSocial = NULL, codOrgao = NULL){
   
   library(httr)
