@@ -1,17 +1,6 @@
 server <- function(input, output, session) {
   
-  values <- reactiveValues()
-  
-  datasetInput <- reactive({
-    switch(input$dataset,
-           "ano1" = input$select1,
-           "mes1" = input$select2,
-           "TOKENX" = input$TOKEN)
-  })
-  
-  
-  
-  
+
   
   
   output$downloadData <- downloadHandler(filename = "Empenhos.csv", 
@@ -68,7 +57,7 @@ server <- function(input, output, session) {
                                            
                                            
                                            
-                                           write.csv2(x = dados,file)}, 
+                                           write.csv2(x = dados,file, fileEncoding = "latin1")}, 
                                          
                                          
                                          
@@ -92,6 +81,5 @@ server <- function(input, output, session) {
   
   
 }
-
 
 
