@@ -1,2 +1,4 @@
 # API_SOF_PMSP
-Scripts para extrair dados da API do SOF da Prefeitura de São Paulo
+Extração de dados da API do Sistema Orçamentário Financeiro da Prefeitura de São Paulo
+
+
